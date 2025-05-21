@@ -99,6 +99,16 @@ body {
   font-size: 1.1rem;
 }
 
+.cta-list {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.cta-list .cta {
+  display: inline-block;
+}
+
 .cta {
   background-color: #a8ff8a;
   color: #0c1b13;
